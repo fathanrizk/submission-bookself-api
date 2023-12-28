@@ -1,3 +1,11 @@
+const {
+  getAllBooksHandler,
+  getBookByIdHandler,
+  editBookByIdHandler,
+  addBookHandler,
+  deleteBookByIdHandler,
+} = require("./handler");
+
 const routes = [
   {
     method: "POST",
